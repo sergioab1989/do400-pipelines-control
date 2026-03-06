@@ -29,7 +29,7 @@ pipeline {
                 beforeInput true
             }
             input {
-                mesagge 'Deploy the application?'
+                message 'Deploy the application?'
             }
             steps {
                 echo 'Deploying...'
