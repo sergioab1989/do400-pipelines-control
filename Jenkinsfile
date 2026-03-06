@@ -5,7 +5,7 @@ pipeline {
         }
     }
     stages {
-        stage('Run Test')
+        stage('Run Test') {
             parallel {
                 stage('Backend Tests') {
                     steps {
